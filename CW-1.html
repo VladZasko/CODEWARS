@@ -33,3 +33,50 @@ multiply = function (a, b) {
     } 
       return "No";
   }
+
+  //exersize 5
+  function numberToString(num) {
+    return String(num);
+  }
+
+  //exersize 6
+  function opposite(number) {
+    return number*-1;
+  }
+
+  //exersize 7
+
+  function removeChar(str){
+    return str.slice(1, str.length-1);
+  };
+
+  //exersize 8
+
+  function squareSum(numbers){
+    var summ = 0;
+    for( var i = 0; i < numbers.length; i++) {
+      summ += Math.pow(numbers[i], 2);
+    }
+    return summ;
+  }
+
+  //exersize 9
+
+  function repeatStr (n, s) {
+    var result = ""
+    for (var i = 0; i < n; i++) {
+      result += s;
+    }
+    return result;
+  }
+
+  //exersize 10
+
+  var summation = function (num) {
+    var sum = 0;
+    for ( var i = 1; i <= num; i++){
+      sum += i;
+      }
+    return sum;
+  }
+  
